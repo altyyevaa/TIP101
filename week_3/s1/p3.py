@@ -1,17 +1,4 @@
-
-def firstLastWord(word):
-    first = word[0]
-    last = word[-1]
-    inverval = word[1:-1]
-    return last + inverval + first
-
-if __name__ == "__main__":
-    word = 'boat'
-    word = 'hello'
-    print(f'Input: {word}')
-    print(f'Output: {firstLastWord(word)}')
-
-def paragram(string):
+def pangram(string):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
    
     
@@ -27,13 +14,13 @@ def paragram(string):
         return True
     else:
         return False 
-    return
+    
 
 if '__main__' == __name__:
     string = "The quick brown fox jumps over the lazy dog"
     print(f'Input: {string}')
-    print(f'It is paragram: {paragram(string)}')
+    print(f'It is pangram: {pangram(string)}')
 
     string = "The dog jumped"
     print(f'Input: {string}')
-    print(f'It is paragram: {paragram(string)}')
+    print(f'It is pangram: {pangram(string)}')
