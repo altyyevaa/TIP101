@@ -1,4 +1,4 @@
-vowels = 'aeiyu'
+vowels = 'aeiyuo'
 def vowel_count(s):
     count_v = 0
     for i in s.lower():
