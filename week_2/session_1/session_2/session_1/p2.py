@@ -5,7 +5,7 @@
 def common_keys(dict1, dict2):
     commonKeys = []
     for key in dict1:
-        if key in dict2.keys():
+        if key in dict2:
             commonKeys.append(key)
     return commonKeys
 
