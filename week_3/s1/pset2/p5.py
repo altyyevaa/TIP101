@@ -1,12 +1,9 @@
-import string
-
 
 def compress_string(my_str):
     pass
     my_dict = {}
     comp_s = ""
     compressed_length = 0
-    
     for char in my_str:
         if char not in my_dict:
             my_dict[char] = 1
